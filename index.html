@@ -2,10 +2,13 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Validação de Formulário</title>
+    <title>Validação de numeros</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <form onsubmit="return validaFormulario()">
+    <div class="container">
+        <h1>Validação de numeros</h1>
+    <form id="formulario">
         <label for="campoA">Campo A:</label>
         <input type="number" id="campoA" name="campoA" required>
         <br>
@@ -13,9 +16,12 @@
         <input type="number" id="campoB" name="campoB" required>
         <br>
         <br>
-        <button type="submit">Enviar</button>
+        <button type="submit">validar</button>
     </form>
     <br>
-    <p id="mensagem"></p>
+        <p id="mensagem"></p>
+        <p id="erro"></p>
+    </div>
+    <script src="./main.js"></script>
 </body>
 </html>

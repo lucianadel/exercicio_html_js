@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+input[type="number"] {
+    width: 100px;
+    margin: 5px;
+}
+
+#mensagem {
+    font-weight: bold;
+    color: green; /* Mensagem positiva (verde) */
+    margin-top: 10px;
+}
+
+#erro {
+    font-weight: bold;
+    color: red; /* Mensagem negativa (vermelho) */
+    margin-top: 10px;
+}
