@@ -12,13 +12,13 @@ input[type="number"] {
 
 #sucesso {
     font-weight: bold;
-    color: green; /*  Mensagem positiva (verde) */
+    color: green; 
     margin-top: 10px;
 }
 
 #erro {
     font-weight: bold;
-    color: red; /* Mensagem negativa (vermelho) */
+    color: red; 
     margin-top: 10px;
 }
 
