@@ -10,9 +10,9 @@ input[type="number"] {
     margin: 5px;
 }
 
-#mensagem {
+#sucesso {
     font-weight: bold;
-    color: green; /* Mensagem positiva (verde) */
+    color: green; /*  Mensagem positiva (verde) */
     margin-top: 10px;
 }
 
@@ -21,3 +21,4 @@ input[type="number"] {
     color: red; /* Mensagem negativa (vermelho) */
     margin-top: 10px;
 }
+
